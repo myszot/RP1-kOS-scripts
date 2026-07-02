@@ -9,7 +9,7 @@ wait until ship:thrust > 10.
 stage.
 print "liftoff".
 
-wait 5. stage.
+wait 4. stage.
 print "booster sep".
 
 wait until ship:thrust <= 0.
