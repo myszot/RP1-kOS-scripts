@@ -18,4 +18,7 @@ stage. print "stage sep".
 wait .7.
 stage. print "SES".
 
+wait until ship:verticalSpeed < -10.
+stage. print "AP: "+ship:altitude.
+
 wait 99999.
